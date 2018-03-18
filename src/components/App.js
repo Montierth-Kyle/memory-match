@@ -4,7 +4,7 @@ import Game from './Game';
 
 class App extends Component {
 
-  state = { username: '', gameOver: false, gameStarted: false };
+  state = { username: "", gameOver: false, gameStarted: false };
 
   setUsername = (e) => {
     this.setState({ username: e.target.value });
